@@ -1,0 +1,36 @@
+body{
+    padding: 100px 20%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(106, 104, 104, 0.2);
+    border-radius: 20px;
+}
+#button-box{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+button{
+    cursor: pointer;
+    font-size: 15px;
+    border-color: rgb(65, 65, 247);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#ibox{
+    height: 250px;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    
+}
